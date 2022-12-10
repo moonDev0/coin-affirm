@@ -135,3 +135,57 @@ li{
     float: right !important;
     /* padding-left: 100px; */
 }
+.navbar{
+    box-shadow: none !important;
+}
+.register{
+    width: 40%;
+}
+.register form{
+    display: flex;
+}
+.register>form input{
+    border-radius: 20px;
+    /* padding-top: 20px; */
+    height: 50px;
+    width: 300px;
+    border: 2px solid #00955b;
+    padding: 10px;
+
+}
+.register button{
+    border: none;
+    background-color: #00955b;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.intro{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.intro-left{
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.intro-right{
+    height: 40vh;
+    width: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/intro.png);
+}
+
+.intro-title{
+    margin-top: 100px;
+}
