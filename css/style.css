@@ -210,11 +210,22 @@ li{
 .app-left{
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-left{
+    margin-top: 20px;
+}
+.app-left :not(first-child) div{
+    margin-top: 50px;
 }
 .app-footer{
     display: flex;
-    flex-direction: column;
     gap: 20px;
+}
+.app-footer i{
+    font-size: 100px;
 }
 .app-right{
     width: 30vw !important;
