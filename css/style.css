@@ -2,6 +2,69 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/*--------------------Reusable Variables--------------------*/
+:root {
+    /*--------------------Light Theme Variables (Default)--------------------*/
+    --light-theme-background-color: #eee;
+    --light-theme-darker-background-color:#ccc;
+    --light-theme-text-color: #333;
+    --light-theme-link-color: #ff6347;
+    --light-theme-link-hover-color: #fa2600;
+
+    /*--------------------Dark Theme Variables--------------------*/ 
+    --dark-theme-background-color: hsl(230, 17%, 14%);
+    --dark-theme-darker-background-color: hsl(228, 28%, 20%);
+    --dark-theme-text-color: #eee;
+    --dark-theme-link-color: #00fa9a;
+    --dark-theme-link-hover-color: #00955b; 
+
+    /*--------------------Other Variables--------------------*/ 
+    --link-hover-timing: all 0.25s ease-in-out;
+    --theme-change-timing: all 1s ease-in-out;
+}
+/*--------------------Light Theme Styles (Default)--------------------*/
+.light {
+    background: var(--light-theme-background-color);
+    color: var(--light-theme-text-color);
+    transition: var(--theme-change-timing);
+}
+
+
+
+/*--------------------Dark Theme Styles--------------------*/
+.dark {
+    background: var(--dark-theme-background-color);
+    color: var(--dark-theme-text-color);
+    transition: var(--theme-change-timing);
+}
+.fa-moon{
+
+    color: #f1c40f;
+    
+}
+.fa-sun{
+    color: #f1c40f;
+    
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    bottom: 2px;
+    color: #fff;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    transition: transform 0.2s linear;
+}
+.checkbox{
+    opacity: 0%;
+    position: absolute;
+}
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+
 .container{
     width: 100%;
 }
@@ -10,6 +73,7 @@ html,body{
 }
 html body{
     height: 100%;
+    background-color: white;
 }
 li{
     list-style-type: none !important;

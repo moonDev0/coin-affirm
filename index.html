@@ -20,9 +20,10 @@ rel="stylesheet"
 <link rel="stylesheet" href="./css/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f3d96cebff.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body>
+<body class="light">
     
     <div class="container">
         <header>
@@ -85,7 +86,16 @@ rel="stylesheet"
             
         </header>
         <section class="hero">
-            <div class="intro"></div>
+            <div class="intro">
+                <div class="icons">
+                    <input type="checkbox"  class="checkbox" id="checkbox">
+                    <label for="checkbox" class="label">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+            </div>
         </section>
         <section class="main"><h2>Coin Affirm contents</h2></section>
         <section class="loyalty"></section>
@@ -219,5 +229,6 @@ rel="stylesheet"
 type="text/javascript"
 src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
 ></script>
+<script src="script.js"></script>
 </body>
 </html>
