@@ -266,3 +266,25 @@ li{
     height: 200px !important;
 }
 /* market trends */
+
+/* benefit contents */
+.top-item, .down-item{
+    height: 30vh;
+    background-color: #0ead98;
+    margin: 20px;
+}
+.benefit-top :nth-child(1){
+    width: 65vw;
+}
+.benefit-top :nth-child(2){
+    width: 25vw;
+}
+
+
+.benefit-down :nth-child(1){
+    width: 25vw;
+}
+.benefit-down :nth-child(2){
+    width: 65vw;
+}
+/* benefit contents */
