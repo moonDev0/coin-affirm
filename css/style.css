@@ -272,19 +272,42 @@ li{
     height: 30vh;
     background-color: #0ead98;
     margin: 20px;
+
 }
 .benefit-top :nth-child(1){
     width: 65vw;
+    background-image: url(../img/trade_bg.png);
+    background-size: cover;
 }
 .benefit-top :nth-child(2){
     width: 25vw;
+    background-image: url(../img/global_decor.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: #f5f9fa;
+}
+.benefit-top :nth-child(1) img{
+    width: 200px;
+    height: 200px;
+}
+
+.benefit-down :nth-child(1) img{
+    width: 200px;
+    border-radius: 20px;
 }
 
 
 .benefit-down :nth-child(1){
     width: 25vw;
+    background: linear-gradient(180deg,#0d9389,#61d8cf);
 }
 .benefit-down :nth-child(2){
     width: 65vw;
+    background-image: url(../img/protect_decor.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: #f5f9fa;
 }
 /* benefit contents */
