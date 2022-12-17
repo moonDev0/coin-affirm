@@ -71,6 +71,12 @@ li{
 .footer-light {
     background: var(--light-theme-darker-background-color);
 }
+.txtlight{
+    color: white;
+}
+.txtdark{
+    color: black;
+}
 .icons{
 	text-align: center;
 	display: flex;
@@ -336,7 +342,7 @@ li{
 .explore{
     height: 30vh;
     background-image: url(../img/trip_bg.png);
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -355,3 +361,90 @@ li{
     border-radius: 30px;
 }
 /* explore */
+
+
+
+/* media querries */
+
+@media screen and (max-width:984px) {
+    .app img{
+        width: 200px;
+    }
+    h1{
+        /* font-size: 20px; */
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:805px) {
+   
+    .app-left{
+        transform: scale(0.5);
+    }
+    .app-right{
+        transform: scale(0.5);
+    }
+    h1{
+    
+        /* font-size: 20px; */
+    }
+    
+}
+
+@media screen and (max-width:680px) {
+    .app-left{
+        height: 30vh !important;
+        margin-top: 100px;
+    }
+    .app-right{
+        width: 100vw !important;
+        height: 40vh;
+        transform: scale(0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .app-left{
+        transform: scale(0.8);
+    }
+  .app{
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: 100vh;
+  }
+  .register{
+      width: 100vw;
+      height: 30vh;
+      margin-top: 20px;
+  }
+  .register form{
+      flex-wrap: wrap;
+      width: 100vw;
+      gap: 10px;
+  }
+  .register>form div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .register>form input{
+      width: 300px;
+  }
+  .register>form button{
+    width: 300px;
+}
+.coinsapi{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.coin-item{
+    width: 90%;
+}
+}
+/* media querries */

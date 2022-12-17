@@ -16,10 +16,13 @@ var vflex5 = document.querySelector('.vflex5');
 var vflex6 = document.querySelector('.vflex6');
 var vflex7 = document.querySelector('.vflex7');
 var vflex8 = document.querySelector('.vflex8');
+var navt = document.querySelector('.navt');
 
 checks.addEventListener('click', () => {
     body.classList.toggle("light");
     body.classList.toggle("dark");
+    navt.classList.toggle("txtlight");
+    navt.classList.toggle("txtdark");
     checks.classList.toggle("btn-light");
     checks.classList.toggle("btn-dark");
     footer.classList.toggle("footer-light");
