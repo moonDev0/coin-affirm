@@ -414,7 +414,7 @@ li{
       flex-wrap: wrap;
       flex-direction: column-reverse;
       height: 100vh;
-      margin-top: 100px !important;
+      margin-top: 100px;
   }
   .register{
       width: 100vw;
@@ -425,6 +425,7 @@ li{
       flex-wrap: wrap;
       width: 100vw;
       gap: 10px;
+      margin: auto;
   }
   .register>form div{
     width: 100vw;
@@ -433,17 +434,17 @@ li{
     align-items: center;
   }
   .register>form input{
-      width: 300px;
+      width: 70%;
   }
   .register>form button{
-    width: 300px;
+    width: 70%;
     margin-left: 0px;
 }
 .coinsapi{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 .coin-item{
     width: 90%;
