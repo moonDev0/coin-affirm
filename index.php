@@ -252,9 +252,9 @@
 
         <!-- Main footer -->
         <footer class="main-footer">
-            <div class="footer-container">
-                <img src="./assets/Logo.svg" alt="CRAPPO company logo" class="main-footer__logo" />
-
+            <div class="footer-container foot">
+            <div class="logoimg"><div><img src="./img/logo.png" alt="CRAPPO logo" class="main-header-navbar__logo" />
+                     </div> <div class="logo-txt">&nbsp; CRYPTO AFFIRM</div></div>
                 <!-- Footer navs -->
                 <nav class="main-footer-navbar">
                     <!-- Quick Link nav -->
@@ -316,7 +316,7 @@
                 <!-- Copy and social links -->
                 <div class="copy-and-social">
                     <h3 class="copy-and-social__copy">
-                        ©2021 CRAPPO. All rights reserved
+                        ©2021 CRYPTO AFFIRM. All rights reserved
                     </h3>
 
                     <div class="social-icons">
