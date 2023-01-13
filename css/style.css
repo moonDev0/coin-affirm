@@ -1,0 +1,14 @@
+
+.logoimg img{
+    width: 50px;
+    
+}
+.logoimg{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.logo-txt{
+    font-weight: bold;
+    font-size: 20px;
+}

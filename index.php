@@ -24,6 +24,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Cryptocurrency company</title>
 </head>
@@ -35,7 +36,8 @@
             <div class="header-container">
                 <!-- Header navbar -->
                 <nav class="main-header-navbar">
-                    <img src="./assets/Logo.svg" alt="CRAPPO logo" class="main-header-navbar__logo" />
+                    <div class="logoimg"><div><img src="./img/logo.png" alt="CRAPPO logo" class="main-header-navbar__logo" />
+                     </div> <div class="logo-txt">&nbsp; CRYPTO AFFIRM</div></div>
 
                     <ul class="main-header-navbar__nav">
                         <li class="main-header-navbar__nav__item">
@@ -53,8 +55,8 @@
                     </ul>
 
                     <div class="main-header-navbar__login">
-                        <a href="#" class="main-header-navbar__login__login-btn">Login</a>
-                        <a href="#" class="main-header-navbar__login__register-btn">Register</a>
+                        <a href="./ums" class="main-header-navbar__login__login-btn">Login</a>
+                        <a href="./ums/register.php" class="main-header-navbar__login__register-btn">Register</a>
                     </div>
                 </nav>
 
