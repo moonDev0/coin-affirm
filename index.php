@@ -118,7 +118,7 @@
                 <div class="why-us-section" id="about">
                     <div class="why-us-section__content">
                         <h2 class="why-us-section__content__title">
-                            Why you should choose <span>CRAPPO</span>
+                            Why you should choose <span>CRYPO AFFIRM</span>
                         </h2>
                         <p class="why-us-section__content__description">
                             Experience the next generation cryptocurrency platform. No
@@ -241,7 +241,7 @@
             <div class="cta-section__content">
                 <h3 class="cta-section__content__title">Start mining now</h3>
                 <p class="cta-section__content__description">
-                    Join now with CRAPPO to get the latest news and start mining now
+                    Join now with CRYPTO AFFIRM to get the latest news and start mining now
                 </p>
             </div>
             <div class="cta-section__subscribe">
