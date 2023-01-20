@@ -1,9 +1,9 @@
 ﻿<?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','armentum');
+define('DB_HOST','sql203.epizy.com');
+define('DB_USER','epiz_33309750');
+define('DB_PASS','OTI9T0m6U8');
+define('DB_NAME','epiz_33309750_armentum');
 // Establish database connection.
 try
 {
