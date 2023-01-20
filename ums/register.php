@@ -74,6 +74,7 @@ $error="Something went wrong. Please try again";
 	<link rel="stylesheet" href="css/fileinput.min.css">
 	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
 	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sstyle.css">
     <script type="text/javascript">
 
 	function validate()
@@ -100,6 +101,20 @@ $error="Something went wrong. Please try again";
 </head>
 
 <body>
+    <div class="verify-note" id="vnote"  >
+        
+        <div class="note">
+        <div class="cancel" onclick="vnote()">
+            <img src="../img/cancel.png" alt="">
+        </div>
+            <img src="../img/verify.png" alt="">
+            <h1>Verification Notice</h1>
+        <p>please enter authentication credentials while creating an account,
+             as this credentials must match documents provided during account 
+             verification to avoid account invalidation
+
+        </p></div>
+    </div>
 	<div class="login-page bk-img">
 		<div class="form-content">
 			<div class="container">
@@ -178,6 +193,7 @@ $error="Something went wrong. Please try again";
 	<script src="js/fileinput.js"></script>
 	<script src="js/chartData.js"></script>
 	<script src="js/main.js"></script>
+    <script src="js/new.js"></script>
 
 </body>
 </html>

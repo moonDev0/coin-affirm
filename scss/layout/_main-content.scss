@@ -127,6 +127,133 @@
       }
     }
   }
+
+  // three-cards
+  .three-cards {
+    width: 100%;
+    background-image: url(../assets/why-us-section-assets/why-us-pattern1.png),
+      url(../assets/why-us-section-assets/why-us-pattern2.png),
+      url(../assets/why-us-section-assets/why-us-pattern3.png);
+    background-repeat: no-repeat;
+    background-position: left center, right bottom, right top;
+    background-size: 250px;
+    height: 500px;
+    @include flexbox;
+
+    // // Stats section
+    // .stats-section {
+    //   width: 80%;
+    //   @include flexbox($flow: column nowrap);
+    //   margin-bottom: 75px;
+    //   &__reference {
+    //     width: 50%;
+    //     margin-bottom: 40px;
+    //     text-align: center;
+
+    //     .fas {
+    //       color: $btn-bg-color;
+    //       background-color: lighten($footer-bg-color, 20%);
+    //       font-size: 35px;
+    //       padding: 20px;
+    //       border-radius: 50%;
+    //     }
+    //     &__title {
+    //       font-size: 2.5rem;
+    //       // width: 100%;
+    //       margin: 15px auto;
+    //     }
+    //     &__description {
+    //       font-size: 1.4rem;
+    //     }
+    //   }
+    // }
+    // // Why us content
+    // .why-us-section {
+    //   width: 80%;
+    //   max-width: 400px;
+    //   margin-bottom: 75px;
+
+    //   &__content {
+    //     width: 100%;
+    //     text-align: center;
+
+    //     &__title {
+    //       font-size: 2.5rem;
+    //       span {
+    //         color: lighten($ethereum-icon-bg-color, 40%);
+    //       }
+    //     }
+    //     &__description {
+    //       font-size: 1.4rem;
+    //       margin: 20px auto;
+    //     }
+    //     &__btn {
+    //       @include button;
+    //       margin: 20px auto 10px;
+    //       transition: all 0.3s ease-in;
+
+    //       &:hover {
+    //         background-color: lighten($btn-bg-color, 10%);
+    //       }
+    //       &:active {
+    //         transform: scale(0.95);
+    //         background-color: darken($btn-bg-color, 30%);
+    //       }
+    //     }
+    //   }
+    //   &__illustration {
+    //     width: 100%;
+    //     animation-delay: 8s;
+    //     animation-timing-function: ease-in-out;
+    //     animation-duration: 2.5s;
+    //   }
+    // }
+    // // Benefits section
+    // .benefits-section {
+    //   width: 80%;
+    //   max-width: 400px;
+    //   text-align: center;
+
+    //   &__title {
+    //     font-size: 2.5rem;
+    //     span {
+    //       color: lighten($ethereum-icon-bg-color, 10%);
+    //     }
+    //   }
+    //   &__description {
+    //     font-size: 1.4rem;
+    //     margin-top: 30px;
+    //   }
+    //   .card-info {
+    //     width: 100%;
+    //     max-width: 400px;
+    //     background-color: #fff;
+    //     color: #000;
+    //     border-radius: 10px;
+    //     padding: 25px 15px;
+    //     transform: translateY(50%);
+    //     text-align: left;
+    //     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+
+    //     &__title {
+    //       font-size: 1.4rem;
+    //       color: $ethereum-icon-bg-color;
+    //     }
+    //     &__description {
+    //       font-size: 1.3rem;
+    //       font-weight: 700;
+    //       margin: 15px auto;
+    //       span {
+    //         color: lighten($ethereum-icon-bg-color, 10%);
+    //       }
+    //     }
+    //     &__advice {
+    //       font-size: 1rem;
+    //       color: $span-txt-color;
+    //     }
+    //   }
+    // }
+  }
   // Cryptocurrencies section
   .cryptocurrencies-section {
     width: 100%;
